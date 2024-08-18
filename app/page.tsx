@@ -7,6 +7,9 @@ import Image from "next/image";
 import { TextGenerateEffect } from "../components/ui/text";
 import { Meteors } from "@/components/ui/meteorcard";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
+import ProfileCard from "@/components/ui/aboutme";
+import CustomCursor from "@/components/ui/CustomCursor";
+import ContactFooter from "@/components/ui/Footer";
 
 export default function Home() {
   const words = ["Hello", "Namaste", "Ciao", "Konnichiwa", "Bonjour"];
@@ -33,6 +36,7 @@ export default function Home() {
   ];
   return (
     <main className="flex min-h-screen w-[97vw] flex-col items-center justify-between ">
+      <CustomCursor />
       <WavyBackground className="z-50">
         <div className="w-full absolute inset-0 h-screen">
           <SparklesCore
@@ -68,7 +72,7 @@ export default function Home() {
         </div>
 
         {/* </SparklesCore> */}
-        <div className="Work flex flex-col justify-center w-full">
+        <div id="Work" className="Work flex flex-col justify-center w-full">
           <div className="Work flex flex-row justify-between w-full">
             <div></div>
             <TextGenerateEffect
@@ -79,6 +83,18 @@ export default function Home() {
           <div className="cards flex justify-center items-center flex-row ">
             <HoverEffect className="w-10/12" items={items} />
           </div>
+        </div>
+        <div
+          id="About"
+          className="aboutme w-full flex flex-col justify-center items-center"
+        >
+          <ProfileCard />
+        </div>
+        <div
+          id="Contact"
+          className="contact w-full flex flex-col justify-center items-center"
+        >
+          <ContactFooter />
         </div>
       </WavyBackground>
 
