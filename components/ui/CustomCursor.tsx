@@ -95,7 +95,7 @@ const CustomCursor: React.FC = () => {
 
       <div
         ref={iconRef}
-        className={`fixed pointer-events-none z-[100] rounded-full w-8 h-8`}
+        className={`fixed pointer-events-none z-[100] hidden lg:flex rounded-full w-8 h-8`}
         style={{
           left: 0,
           top: 0,
@@ -108,6 +108,7 @@ const CustomCursor: React.FC = () => {
           height={100}
           width={100}
           objectFit="cover"
+          className="hidden lg:flex"
         />
       </div>
     </>

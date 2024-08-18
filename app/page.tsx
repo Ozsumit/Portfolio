@@ -38,7 +38,7 @@ export default function Home() {
     <main className="flex min-h-screen w-[97vw] flex-col items-center justify-between ">
       <CustomCursor />
       <WavyBackground className="z-50">
-        <div className="w-full absolute inset-0 h-screen">
+        <div className="w-full absolute inset-0 h-[50vh] lg:h-screen">
           <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="maincon flex flex-col justify-center items-center">
           <div
             id="Hero"
-            className="hero flex z-50 flex-col justify-start mt-[20vh] items-center h-screen"
+            className="hero flex z-50 flex-col justify-start mt-[20vh] items-center h-[50vh] lg:h-screen"
           >
             <WordFlip
               cursorClassName="text-white blinking-cursor"
@@ -77,7 +77,7 @@ export default function Home() {
             <div></div>
             <TextGenerateEffect
               words={wordss}
-              className="lg:w-5/12  w-auto text-3xl font-mono"
+              className="lg:w-5/12 lg:p-0 p-5  w-auto text-3xl font-mono"
             />
           </div>
           <div className="cards flex justify-center items-center flex-row ">

@@ -12,7 +12,7 @@ export const ProfileCard = ({ className }: { className?: string }) => {
   return (
     <div
       className={cn(
-        " font-mono w-[60rem] flex flex-col md:flex-row items-center justify-center gap-8 p-6 bg-transparent text-[#d6d6d6] rounded-xl",
+        " font-mono lg:w-[60rem] w-full  flex flex-col md:flex-row items-center justify-center gap-8 p-6 bg-transparent text-[#d6d6d6] rounded-xl",
         className
       )}
     >

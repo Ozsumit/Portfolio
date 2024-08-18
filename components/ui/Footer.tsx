@@ -24,10 +24,10 @@ const ContactFooter: React.FC<ContactFooterProps> = ({ className }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row ">
           {/* Logo */}
-          <div className="mb-4 flex justify-start items-start md:mb-0">
+          <div className="mb-4 w-full flex lg:justify-start lg:items-start md:mb-0 sm:items-center sm:justify-center ">
             <Link
               href="/"
-              className="text-2xl flex justify-start items-start  font-bold"
+              className="text-2xl flex lg:justify-start lg:items-start items-center justify-center  font-bold"
             >
               <Image
                 src="/favi.svg"
