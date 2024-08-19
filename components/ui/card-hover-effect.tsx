@@ -93,7 +93,7 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <div className="rounded-2xl h-56 min-w-54 max-w-120 w-full p-4 overflow-hidden bg-[#000000]/[0.9] border border-white dark:border-white/[0.2] group-hover:border-slate-700 relative z-20">
-            <Meteors />
+            <Meteors  />
             <div className="relative z-48">
               <div className="p-4">
                 <h4 className="text-zinc-100 font-bold tracking-wide mt-0 text-xl">
