@@ -19,7 +19,7 @@ export default function Home() {
       title: "Repo-Nox",
       description:
         "Your friend for elite academic comeback that you dreamed of. Made with NextJS and Tailwind",
-      link: "https://ozsumit.github.io/nox",
+      link: "https://nox.sumit.info.np",
     },
     {
       title: "Jyoti EBS ",
