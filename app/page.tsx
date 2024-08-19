@@ -49,7 +49,7 @@ export default function Home() {
             particleColor="#FFFFFF"
           />
         </div>
-        <Navigation />
+        <Navigation/>
 
         <div className="maincon flex flex-col justify-center items-center">
           <div

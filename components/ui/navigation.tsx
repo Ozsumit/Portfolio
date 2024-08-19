@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navigation: React.FC = () => {
   return (
-    <div className="sticky top-0 z-50 w-[95vw] h-[10vh] flex justify-center items-center bg-transparent">
+    <div className="sticky top-0 z-[101] w-[95vw] h-[10vh] flex justify-center items-center bg-transparent">
       <nav className="flex flex-row justify-center items-center gap-[4vw]">
         {["Home", "Work", "About", "Contact"].map((item) => (
           <Link
