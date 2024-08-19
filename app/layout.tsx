@@ -6,7 +6,7 @@ import CustomCursor from "@/components/ui/CustomCursor";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Vash/Oni",
+  title: "Sumit",
   description: "Hello This is Sumit",
 };
 

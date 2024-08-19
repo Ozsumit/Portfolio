@@ -12,7 +12,7 @@ export const WavyBackground = ({
   backgroundFill,
   blur = 10,
   speed = "fast",
-  waveOpacity = 0.5,
+  waveOpacity = 0.6,
   ...props
 }: {
   children?: any;
@@ -74,7 +74,7 @@ export const WavyBackground = ({
       ctx.lineWidth = waveWidth || 50;
       ctx.strokeStyle = waveColors[i % waveColors.length];
       for (x = 0; x < w; x += 5) {
-        var y = noise(x / (w * 0.5), 0.3 * i, nt) * (h * 0.21);
+        var y = noise(x / (w * 0.5), 0.3 * i, nt) * (h * 0.12);
         ctx.lineTo(x, y + h * 0.2);
       }
       ctx.stroke();

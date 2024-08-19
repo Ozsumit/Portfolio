@@ -30,7 +30,7 @@ const CustomCursor: React.FC = () => {
         (targetPos.current.y - currentPos.current.y) * 0.1;
 
       // Update rotation
-      rotation.current = (rotation.current + rotationSpeed.current) % 360;
+      rotation.current = (rotation.current + rotationSpeed.current) % 520;
 
       // Update cursor and icon positions
       if (cursorRef.current && iconRef.current) {
