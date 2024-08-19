@@ -1,5 +1,5 @@
 import Navigation from "@/components/ui/navigation";
-import { SparklesCore } from "@/components/ui/sparkles";
+import Particles from "@/components/ui/sparkles";
 import WordFlip from "@/components/ui/textflip";
 // import { WavyBackgroundVer } from "@/components/ui/wave-ver";
 import { WavyBackground } from "@/components/ui/waves";
@@ -39,17 +39,9 @@ export default function Home() {
       <CustomCursor />
       <WavyBackground className="z-50">
         <div className="w-full absolute inset-0 h-[50vh] lg:h-screen">
-          <SparklesCore
-            id="tsparticlesfullpage"
-            background="transparent"
-            minSize={0.6}
-            maxSize={1.4}
-            particleDensity={50}
-            className="w-full h-full  -z-50"
-            particleColor="#FFFFFF"
-          />
+          <Particles />
         </div>
-        <Navigation/>
+        <Navigation />
 
         <div className="maincon flex flex-col justify-center items-center">
           <div
