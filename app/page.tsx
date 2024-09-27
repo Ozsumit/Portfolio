@@ -19,13 +19,13 @@ export default function Home() {
       title: "Repo-Nox",
       description:
         "Your friend for elite academic comeback that you dreamed of. Made with NextJS and Tailwind",
-      link: "https://nox.sumit.info.np",
+      link: "https://repo.sumit.info.np",
     },
     {
-      title: "Jyoti EBS ",
+      title: "Donation Clicker Game ",
       description:
         "This is a static website i made for Jyoti English Boarding School. It is made with plain HTML, CSS, & Javascript. ",
-      link: "https://jyotiebs.edu.np/",
+      link: "https://game.sumit.info.np/",
     },
     {
       title: "IEMIS",
